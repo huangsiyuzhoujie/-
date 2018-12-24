@@ -41,8 +41,8 @@ ssd mobilenet-v2  网络训练过程<br>
 ## pytorch
 #### pytorch 数据集处理过程
 对于分类和目标检测问题<br>
->> 实现数据集的处理类，继承于 torch.util.data.Dataset, 必须实现 __getitem__ __len__ 两个函数。<br>
->> 使用 DataLoader 批量处理样本 dataloader = DataLoader(dataset, batch_size=3, shuffle=True, num_workers=0, drop_last=False)。<br>
+实现数据集的处理类，继承于 torch.util.data.Dataset, 必须实现 __getitem__ __len__ 两个函数。<br>
+使用 DataLoader 批量处理样本 dataloader = DataLoader(dataset, batch_size=3, shuffle=True, num_workers=0, drop_last=False)。<br>
 >> 分类例子
 ```python
 class CaiDataset(Dataset):
@@ -74,6 +74,9 @@ class CaiDataset(Dataset):
     def __len__(self):
         return len(self.imgs)
 ```
+>> 目标检测的数据集处理  可参数此处 (pytorch 实现的 各种不同的 ssd 网络)
+>https://github.com/ShuangXieIrene/ssds.pytorch
+
 
 ## yolov3
 #### yolov3 修改源码 批量测试样本并保存在文件夹上
