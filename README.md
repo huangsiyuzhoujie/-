@@ -41,7 +41,9 @@ ssd mobilenet-v2  网络训练过程<br>
 ## pytorch
 #### pytorch 数据集处理过程
 对于分类和目标检测问题<br>
->> 实现数据集的处理类，继承于 torch.util.data.Dataset, 必须实现 __getitem__ __len__ 两个函数
+>> 实现数据集的处理类，继承于 torch.util.data.Dataset, 必须实现 __getitem__ __len__ 两个函数<br>
+>> 使用 DataLoader 批量处理样本 dataloader = DataLoader(dataset, batch_size=3, shuffle=True, num_workers=0, drop_last=False)<br>
+>> 分类例子
 ```python
 class CaiDataset(Dataset):
     def __init__(self, datadir, labelfile, transforms):
