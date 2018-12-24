@@ -10,7 +10,7 @@ tensorflow-lite  分类过程
 > https://blog.csdn.net/u011092156/article/details/80642133
 
 tensorflow-lite  目标检测过程
-> `一行命令统一修改样本名字` <br>
+> 一行命令统一修改样本名字 <br>
 ```bash
->> ls | cat -n | while read n f; do mv "$f" "Daisy_$n.jpg"; done 
+ls | cat -n | while read n f; do mv "$f" "Daisy_$n.jpg"; done 
 ```
