@@ -16,4 +16,6 @@
 ls | cat -n | while read n f; do mv "$f" "Daisy_$n.jpg"; done 
 ```
 > 转为为tflite文件 部署到手机上的方法<br>
-https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tensorflowlite.md
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tensorflowlite.md<br>
+> tensorflow-lite 目标检测模型的训练过程<br>
+https://github.com/naisy/train_ssd_mobilenet#6
