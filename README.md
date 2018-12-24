@@ -23,12 +23,17 @@ tensorflow-lite 目标检测模型的训练过程<br>
 
 ## keras 
 
-## caffe 
+## caffe
+caffe 部署到移动端使用 ncnn 框架
+
 #### 安装方法
 > https://www.linuxidc.com/Linux/2017-01/139313p2.htm<br>
 > https://www.cnblogs.com/AbcFly/p/6306201.html
 
 #### caffe  目标检测（移动端）
-制作ldmb数据集  ssd mobilenet-v1网络的训练<br>
+ssd mobilenet-v1  网络的训练<br>
 > https://blog.csdn.net/Chris_zhangrx/article/details/80458515<br>
 > https://blog.csdn.net/weixin_39750664/article/details/82502302
+
+ssd mobilenet-v2  网络训练过程<br>
+>https://blog.csdn.net/u010986080/article/details/84983310
