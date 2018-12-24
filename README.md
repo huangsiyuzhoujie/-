@@ -42,6 +42,36 @@ ssd mobilenet-v2  网络训练过程<br>
 #### pytorch 数据集处理过程
 对于分类和目标检测问题<br>
 >> 实现数据集的处理类，继承于 torch.util.data.Dataset, 必须实现 __getitem__ __len__ 两个函数
+```python
+class CaiDataset(Dataset):
+    def __init__(self, datadir, labelfile, transforms):
+        super(CaiDataset, self).__init__()
+        imgs = os.listdir(datadir)
+        self.imgs = [os.path.join(datadir, img) for img in imgs]
+        self.transforms = transforms
+        self.labelfile = labelfile
+
+    def __getitem__(self, index):
+        img_path = self.imgs[index]
+
+        labels = open(self.labelfile).readlines()
+        labels = [line.rstrip() for line in labels]
+        for label in labels:
+            label = eval(label)
+            for key, value in label.items():
+                if key in img_path.split('/')[-1]:
+                    self.label = value
+
+        img = Image.open(img_path)
+        if self.transforms:
+            img = self.transforms(img)
+        label = self.label
+
+        return img, label
+    
+    def __len__(self):
+        return len(self.imgs)
+```
 
 ## yolov3
 #### yolov3 修改源码 批量测试样本并保存在文件夹上
