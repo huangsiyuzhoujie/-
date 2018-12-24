@@ -20,3 +20,10 @@ ls | cat -n | while read n f; do mv "$f" "Daisy_$n.jpg"; done
 
 tensorflow-lite 目标检测模型的训练过程<br>
 > https://github.com/naisy/train_ssd_mobilenet#6
+
+## keras 
+
+## caffe 
+#### 安装方法
+> https://www.linuxidc.com/Linux/2017-01/139313p2.htm<br>
+> https://www.cnblogs.com/AbcFly/p/6306201.html
