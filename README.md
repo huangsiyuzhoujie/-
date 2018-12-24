@@ -11,12 +11,12 @@
 > https://blog.csdn.net/u011092156/article/details/80642133
 
 #### tensorflow-lite  目标检测过程
-> 一行命令统一修改样本名字 <br>
+一行命令统一修改样本名字 <br>
 ```bash
 ls | cat -n | while read n f; do mv "$f" "Daisy_$n.jpg"; done 
 ```
-> 转为为tflite文件 部署到手机上的方法<br>
-https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tensorflowlite.md
+转为为tflite文件 部署到手机上的方法<br>
+> https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_mobile_tensorflowlite.md
 
-> tensorflow-lite 目标检测模型的训练过程<br>
-https://github.com/naisy/train_ssd_mobilenet#6
+tensorflow-lite 目标检测模型的训练过程<br>
+> https://github.com/naisy/train_ssd_mobilenet#6
