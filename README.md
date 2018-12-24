@@ -2,6 +2,9 @@
 #### 安装方法：
 > pip install tensorflow-gpu=1.9.0
 
+#### 数据集处理  tfrecord
+先将xml文件转化为csv，然后转化为tfrecord
+
 #### 库地址
 [分类]  https://github.com/tensorflow/models/tree/master/research/slim<br>
 [目标检测]  https://github.com/tensorflow/models/tree/master/research/object_detection
