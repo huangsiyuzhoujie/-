@@ -39,6 +39,9 @@ ssd mobilenet-v2  网络训练过程<br>
 >https://blog.csdn.net/u010986080/article/details/84983310
 
 ## pytorch
+#### pytorch 数据集处理过程
+对于分类和目标检测问题<br>
+>> 实现数据集的处理类，继承于 torch.util.data.Dataset, 必须实现 __getitem__ __len__ 两个函数
 
 ## yolov3
 #### yolov3 修改源码 批量测试样本并保存在文件夹上
