@@ -30,6 +30,10 @@ caffe 部署到移动端使用 ncnn 框架
 > https://www.linuxidc.com/Linux/2017-01/139313p2.htm<br>
 > https://www.cnblogs.com/AbcFly/p/6306201.html
 
+#### 数据集处理
+分类 转化为 lmdb 文件
+> http://www.cnblogs.com/luludeboke/p/7813060.html
+
 #### caffe  目标检测（移动端）
 ssd mobilenet-v1  网络的训练<br>
 > https://blog.csdn.net/Chris_zhangrx/article/details/80458515<br>
@@ -37,6 +41,7 @@ ssd mobilenet-v1  网络的训练<br>
 
 ssd mobilenet-v2  网络训练过程<br>
 >https://blog.csdn.net/u010986080/article/details/84983310
+
 
 ## pytorch
 #### pytorch 数据集处理过程
