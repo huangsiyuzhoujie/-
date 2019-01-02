@@ -1,3 +1,8 @@
+## 各种issue
+1. 运行 caffe ssd mobilenet-v2 中的 load_caffe_weights.py 时出现cudnn的问题，取消 deploy.prototxt 中的 engine: caffe 的注释
+
+-----------------------------------------------------------------------------------------------------------------------
+
 ## tensorflow(pc端)    tensorflow-lite(移动端)
 #### 安装方法：
 > pip install tensorflow-gpu=1.9.0
@@ -86,6 +91,7 @@ class CaiDataset(Dataset):
 >> 目标检测的数据集处理  可参数此处 (pytorch 实现的 各种不同的 ssd 网络) <br>
 https://github.com/ShuangXieIrene/ssds.pytorch
 
+----------------------------------------------------------------------------------------------------------------------
 
 ## yolov3
 #### yolov3 修改源码 批量测试样本并保存在文件夹上
