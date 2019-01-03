@@ -1,6 +1,7 @@
 ## 各种issue
-1. 运行 caffe ssd mobilenet-v2 中的 load_caffe_weights.py 时出现cudnn的问题，取消 deploy.prototxt 中的 engine: caffe 的注释
-
+1. 运行 caffe ssd mobilenet-v2 中的 load_caffe_weights.py 时出现cudnn的问题，取消 deploy.prototxt 中的 engine: caffe 的注释<br>
+2. cuda9.0 在安装 opencv3 的时候会遇到 CUDA_nppi_LIBRARY 的问题，解决方法如下：<br>
+    https://blog.csdn.net/u014613745/article/details/78310916
 -----------------------------------------------------------------------------------------------------------------------
 
 ## tensorflow(pc端)    tensorflow-lite(移动端)
