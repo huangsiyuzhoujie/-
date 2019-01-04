@@ -41,7 +41,8 @@ caffe 部署到移动端使用 ncnn 框架
 
 #### 安装方法
 > https://www.linuxidc.com/Linux/2017-01/139313p2.htm<br>
-> https://www.cnblogs.com/AbcFly/p/6306201.html
+> https://www.cnblogs.com/AbcFly/p/6306201.html<br>
+[官方]https://github.com/BVLC/caffe/wiki/OpenCV-3.3-Installation-Guide-on-Ubuntu-16.04
 
 #### 数据集处理
 分类 转化为 lmdb 文件
