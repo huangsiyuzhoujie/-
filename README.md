@@ -4,7 +4,9 @@
     https://blog.csdn.net/u014613745/article/details/78310916<br>
     “cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D CUDA_GENERATION=Kepler ..”<br>
 3. 在使用下面的教程中 ssd mobilenet-v2 的时候，会出现 cudnn 的问题，需要将 deploy.prototxt 中的 #engine:caffe 注释掉。<br>
-4. 在 python 中使用 cv2.imread 读取为空时表示没有opencv的python接口，安装 opencv-python 即可。
+4. 在 python 中使用 cv2.imread 读取为空时表示没有opencv的python接口，安装 opencv-python 即可。<br>
+5. 使用 cmake 时出现 libEGL.so 的错误，解决方法:<br>
+    https://www.jianshu.com/p/74e9c8697372
 -----------------------------------------------------------------------------------------------------------------------
 
 ## tensorflow(pc端)    tensorflow-lite(移动端)
