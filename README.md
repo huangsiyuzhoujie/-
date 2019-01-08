@@ -35,6 +35,10 @@ ls | cat -n | while read n f; do mv "$f" "Daisy_$n.jpg"; done
 tensorflow-lite 目标检测模型的训练过程<br>
 > https://github.com/naisy/train_ssd_mobilenet#6
 
+#### 6.树莓派上使用 ssdlite-mobilenetv2
+>https://blog.csdn.net/xyc2690/article/details/80769899
+
+
 ## keras 
 
 ---------------------------------------------------------------------------------------------------------------------
