@@ -62,6 +62,12 @@ ssd mobilenet-v1  网络的训练<br>
 ssd mobilenet-v2  网络训练过程<br>
 >https://blog.csdn.net/u010986080/article/details/84983310
 
+#### 4.caffe 画loss和accuracy曲线
+> http://www.mamicode.com/info-detail-2311403.html<br>
+> https://blog.csdn.net/auto1993/article/details/71293678<br>
+> https://www.cnblogs.com/txg198955/p/6185787.html<br>
+> https://blog.csdn.net/u014653401/article/details/59110465
+
 
 ## pytorch
 #### pytorch 数据集处理过程
