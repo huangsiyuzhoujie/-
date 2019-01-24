@@ -102,7 +102,7 @@ class CaiDataset(Dataset):
     def __len__(self):
         return len(self.imgs)
 ```
->> 目标检测的数据集处理  可参数此处 (pytorch 实现的 各种不同的 ssd 网络) <br>
+>> 目标检测的数据集处理  可参考此处 (pytorch 实现的 各种不同的 ssd 网络) <br>
 https://github.com/ShuangXieIrene/ssds.pytorch<br>
 >> pytorch中自定义数据集的处理方法<br> 
 https://www.pytorchtutorial.com/pytorch-custom-dataset-examples/
