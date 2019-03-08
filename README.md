@@ -9,6 +9,10 @@
     https://www.jianshu.com/p/74e9c8697372
 -----------------------------------------------------------------------------------------------------------------------
 
+ssd网络<br>
+>https://blog.csdn.net/WZZ18191171661/article/details/79444217
+
+
 ## tensorflow(pc端)    tensorflow-lite(移动端)
 #### 1.安装方法：
 > pip install tensorflow-gpu=1.9.0
