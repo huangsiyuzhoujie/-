@@ -9,6 +9,9 @@
     https://www.jianshu.com/p/74e9c8697372
 -----------------------------------------------------------------------------------------------------------------------
 
+mobilenet-ssd<br>
+>https://hey-yahei.cn/
+
 ssd网络<br>
 >https://blog.csdn.net/WZZ18191171661/article/details/79444217
 
